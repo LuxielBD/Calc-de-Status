@@ -24,7 +24,7 @@ $("#calcular").click(function(){
 
       grupoAtual = grupo;
 
-      let inicioGrupo = grupo * 10;
+      let inicioGrupo = +1 (grupo * 10);
       let fimGrupo = inicioGrupo + 9;
 
       html += `
